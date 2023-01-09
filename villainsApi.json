@@ -1,0 +1,1625 @@
+[
+    {
+        "id": 1,
+        "name": "Abomination",
+        "slug": "4-abomination",
+        "rating":"1",
+        "price":"25$",
+        "occupation": "conquer",
+        "achievements":"Tout casser",
+        "comments":"Nul!!! A tout détruit même pas une ruine debout pour jouer avec!!!!",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human / Radiation",
+            "height": [
+                "6'8",
+                "203 cm"
+            ]
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/4-abomination.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/4-abomination.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/4-abomination.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/4-abomination.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Abraxas",
+        "slug": "5-abraxas",
+        "rating":"3",
+        "price":"1000$",
+        "achievements":"Mise à sac de Romilly sur Aigre",
+        "comments":"Fait le job mais un peu cher...",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": "Cosmic Entity",
+            "height": [
+                "-",
+                "0 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/5-abraxas.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/5-abraxas.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/5-abraxas.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/5-abraxas.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Absorbing Man",
+        "slug": "6-absorbing-man",
+        "rating":"4",
+        "price":"250$",
+        "achievements":"Assaut sur le central 13",
+        "comments":"Rapport qualité prix imbattable, professionnel consciencieux ++++",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'4",
+                "193 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/6-absorbing-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/6-absorbing-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/6-absorbing-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/6-absorbing-man.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Air-Walker",
+        "slug": "12-air-walker",
+        "rating":"0",
+        "price":"150$",
+        "achievements":"Rien",
+        "comments":"Minable! petit c#)!!n prétentieux, à peine bon pour allumer un barbecue",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "White"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/12-air-walker.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/12-air-walker.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/12-air-walker.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/12-air-walker.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Ajax",
+        "slug": "13-ajax",
+        "rating":"4",
+        "price":"250$",
+        "achievements":"Le sac de Rome",
+        "comments":"Impliqué dans ce qu'il fait, une étoile en moins pour le chiouaoua de ma grand-mère",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": "Cyborg",
+            "height": [
+                "6'4",
+                "193 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Black"
+        },
+
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/13-ajax.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/13-ajax.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/13-ajax.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/13-ajax.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Alex Mercer",
+        "slug": "15-alex-mercer",
+        "rating":"4",
+        "price":"100$",
+        "achievements":"Destruction du pont de la rivière Kwaï",
+        "comments":"Pas mal se prend pour assassin's creed mais efficace",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "-",
+                "0 cm"
+            ],
+            "eyeColor": "-",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/15-alex-mercer.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/15-alex-mercer.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/15-alex-mercer.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/15-alex-mercer.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Apocalypse",
+        "slug": "35-apocalypse",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"La chute du faucon noir",
+        "comments":"Un professionnel comme en trouve plus beaucoup!!",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": "Mutant",
+            "height": [
+                "7'0",
+                "213 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/35-apocalypse.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/35-apocalypse.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/35-apocalypse.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/35-apocalypse.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Atlas",
+        "slug": "49-atlas",
+        "rating":"5",
+        "price":"75$",
+        "achievements":"Verdun, Dunkerque, Fort Alamo",
+        "comments":"Incroyable!! à ce prix là on dirait qu'il fait ça pour le plaisir!!",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": "God / Eternal",
+            "height": [
+                "6'6",
+                "198 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Brown"
+        },
+            "images": {
+                "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/49-atlas.jpg",
+                "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/49-atlas.jpg",
+                "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/49-atlas.jpg",
+                "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/49-atlas.jpg"          
+        }
+    },
+    {
+        "id": 9,
+        "name": "Azazel",
+        "slug": "57-azazel",
+        "rating":"3",
+        "price":"200$",
+        "achievements":"La chute de Babylone",
+        "comments":"3 semaines de retard mais bonne communication",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Male",
+            "race": "Neyaphem",
+            "height": [
+                "6'0",
+                "183 cm"
+            ],
+            "eyeColor": "Yellow",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/57-azazel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/57-azazel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/57-azazel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/57-azazel.jpg"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Big Barda",
+        "slug": "81-big-barda",
+        "rating":"4",
+        "price":"150$",
+        "achievements":"La bataille des Thermopiles côté perse",
+        "comments":"Rien a redire, carrée +++",
+        "occupation": "conquer",
+        "appearance": {
+            "gender": "Female",
+            "race": "New God",
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/81-big-barda.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/81-big-barda.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/81-big-barda.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/81-big-barda.jpg"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Bane",
+        "slug": "60-bane",
+        "rating":"1",
+        "price":"150$",
+        "achievements":"2 heures chez Elite",
+        "comments":"Belle prestance et insortable!!! A ruiné le Crillon! M'a aussi fracassé la gueule d'où la note...",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'8",
+                "203 cm"
+            ],
+            "eyeColor": "-",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/60-bane.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/60-bane.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/60-bane.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/60-bane.jpg"
+        }
+    },
+
+    {
+        "id": 12,
+        "name": "Black Adam",
+        "slug": "95-black-adam",
+        "rating":"5",
+        "price":"120$",
+        "achievements":"Les anges de la télé réalité",
+        "comments":"Génial, avec lui plus de queue à l'entrée des boîtes même les plus branchées. Pus personne dans la boîte de vivant non plus d'ailleurs",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'3",
+                "191 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/95-black-adam.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/95-black-adam.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/95-black-adam.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/95-black-adam.jpg"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Black Mamba",
+        "slug": "104-black-mamba",
+        "rating":"3",
+        "price":"8000$",
+        "achievements":"Second rôle dans Pretty Woman",
+        "comments":"Fait aussi garde du corps mais chèèèèèèèèèèère et un peu maniérée pour une super vilaine.",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Female",
+            "race": null,
+            "height": [
+                "5'7",
+                "170 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/104-black-mamba.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/104-black-mamba.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/104-black-mamba.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/104-black-mamba.jpg"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Black Manta",
+        "slug": "105-black-manta",
+        "rating":"0",
+        "price":"25$",
+        "achievements":"aucun",
+        "comments":"Une honte!! Vient de changer sa photo de profil, se faisait passer pour Brad Pitt!!!",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "eyeColor": "Black",
+            "hairColor": "No Hair"
+        },
+
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/105-black-manta.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/105-black-manta.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/105-black-manta.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/105-black-manta.jpg"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Blackout",
+        "slug": "109-blackout",
+        "rating":"2",
+        "price":"100$",
+        "achievements":"Les marseillais à Miami saison 2",
+        "comments":"Pas terrible, on ne loue pas ce genre de services pour la conversation mais là c'est le néant total...",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Male",
+            "race": "Demon",
+            "height": [
+                "6'3",
+                "191 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "White"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/109-blackout.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/109-blackout.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/109-blackout.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/109-blackout.jpg"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Blob",
+        "slug": "119-blob",
+        "rating":"4",
+        "price":"150$",
+        "achievements":"Top chef 2009",
+        "comments":"Agréable compagnie, déblaie les embouteillages à coups de boule, mais qu'est-ce qu'il bouffe!",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "5'10",
+                "178 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Brown"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/119-blob.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/119-blob.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/119-blob.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/119-blob.jpg"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Bloodaxe",
+        "slug": "120-bloodaxe",
+        "rating":"0",
+        "price":"250$",
+        "achievements":"Doublure de Lagertha dans Vikings, 6 morts pendant le tournage",
+        "comments":"Intolérable!! S'est barrée avec mon chien et ma bagnole!!!",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Female",
+            "race": "Human",
+            "height": [
+                "7'2",
+                "218 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Brown"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/120-bloodaxe.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/120-bloodaxe.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/120-bloodaxe.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/120-bloodaxe.jpg"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Brainiac",
+        "slug": "136-brainiac",
+        "rating":"3",
+        "price":"100$",
+        "achievements":"champion en titre des chiffres et des lettres a éliminé son seul concurrent potentiel",
+        "comments":"Idéal pour briller en société mais saoûlant, se prend pour BHL...",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Male",
+            "race": "Android",
+            "height": [
+                "6'6",
+                "198 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/136-brainiac.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/136-brainiac.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/136-brainiac.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/136-brainiac.jpg"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Callisto",
+        "slug": "146-callisto",
+        "rating":"5",
+        "price":"200$",
+        "achievements":"Accommpagne D.Trump dans tous ses déplacements pour apporter un peu de finesse ",
+        "comments":"Excellentissime!!!! Services loués pour les soirées de l'ambassadeur... a vomi tous les mon chéri© sur le majordome",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Female",
+            "race": null,
+            "height": [
+                "5'9",
+                "175 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/146-callisto.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/146-callisto.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/146-callisto.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/146-callisto.jpg"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Cheetah",
+        "slug": "172-cheetah",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"Recordwoman du 100m départ arrêté les poches pleines de chez Cartier© Paris",
+        "comments":"Super soirée, toujours les premiers servis et gratos parout ou on est passé pour le prix c'est imbattable",
+        "occupation": "escort",
+        "appearance": {
+            "gender": "Female",
+            "race": "Human",
+            "height": [
+                "5'4",
+                "163 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Blond"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/174-cheetah-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/174-cheetah-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/174-cheetah-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/174-cheetah-iii.jpg"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Chameleon",
+        "slug": "170-chameleon",
+        "rating":"5",
+        "price":"250$",
+        "achievements":"Club Dorothé 1992, multiples vols à l'étalage",
+        "comments":"Génial, amuse les enfants avec ses transformations!! M'a débarrassé des perruches du voisin pour le même prix!!",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "-",
+                "0 cm"
+            ],
+            "eyeColor": "-",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/170-chameleon.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/170-chameleon.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/170-chameleon.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/170-chameleon.jpg"
+        }
+    },
+    
+    {
+        "id": 22,
+        "name": "Darkseid",
+        "slug": "204-darkseid",
+        "rating":"1",
+        "price":"100$",
+        "achievements":"Choriste de William Leymergie sur Pacman, responsable du casse de Fort Knox....",
+        "comments":"Présente bien mais n'a même pas terrosisé ma fille de 5 ans...",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": "New God",
+            "height": [
+                "8'9",
+                "267 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/204-darkseid.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/204-darkseid.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/204-darkseid.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/204-darkseid.jpg"
+        }
+    },
+    {
+        "id": 23,
+        "name": "Deadshot",
+        "slug": "214-deadshot",
+        "rating":"2",
+        "price":"100$",
+        "achievements":"Aurait assassiné Marat et Henri 4 avec la même balle... mytho!!",
+        "comments":"Pas terrible, embauché pour animer un stand de carabine à plomb et supprimer les volailles des voisins, a supprimé les voisins avec...",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'1",
+                "185 cm"
+            ],
+            "weight": [
+                "202 lb",
+                "91 kg"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Brown"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/214-deadshot.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/214-deadshot.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/214-deadshot.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/214-deadshot.jpg"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Demogoblin",
+        "slug": "217-demogoblin",
+        "rating":"5",
+        "price":"100$",
+        "achievements":"Rôle principal dans l'exorciste, l'histoire vraie... pas le film",
+        "comments":"Fabuleux!!! les gosses ont été terrorisés, même les pire d'entre eux font un détour pour ne plus passer devant chez moi, je suis ravie!!!",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": "Demon",
+            "height": [
+                "6'1",
+                "185 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/217-demogoblin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/217-demogoblin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/217-demogoblin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/217-demogoblin.jpg"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Destroyer",
+        "slug": "218-destroyer",
+        "rating":"3",
+        "price":"125$",
+        "achievements":"A déjà cassé à peu près tput ce qui se casse",
+        "comments":"Ok pour le prix, sans plus. Semble un peu perdu",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "eyeColor": "-",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/218-destroyer.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/218-destroyer.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/218-destroyer.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/218-destroyer.jpg"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Doctor Doom",
+        "slug": "222-doctor-doom",
+        "rating":"4",
+        "price":"300$",
+        "achievements":"A dominé le monde sans partage par la persuasion mais préfère le faire dans un bain de sang",
+        "comments":"Très bien, les plus sensibles des enfants se sont tenus à carreau, les autres ont été broyés au propre comme au figuré. Je recommande",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'7",
+                "201 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Brown"
+        },
+
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/222-doctor-doom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/222-doctor-doom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/222-doctor-doom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/222-doctor-doom.jpg"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Doctor Octopus",
+        "slug": "225-doctor-octopus",
+        "rating":"5",
+        "price":"200$",
+        "achievements":"Enlèvements meurtre avec ou sans préméditation",
+        "comments":"Vraiment super le jonglage à 8 bras!!! La distribution de 6 fessées en même temps aussi!!!",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "5'9",
+                "175 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Brown"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/225-doctor-octopus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/225-doctor-octopus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/225-doctor-octopus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/225-doctor-octopus.jpg"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Joker",
+        "slug": "370-joker",
+        "rating":"5",
+        "price":"10000$",
+        "achievements":"Que dire...Quel bel homme!!!!",
+        "comments":"Incroyable!!! hors de prix surtout qu'il a vidé le coffre en partant mais les survivants ont adDOOré!! ",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'5",
+                "196 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Green"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/370-joker.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/370-joker.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/370-joker.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/370-joker.jpg"
+        }
+    },
+    {
+        "id": 28,
+        "name": "Poison Ivy",
+        "slug": "522-poison-ivy",
+        "rating":"4",
+        "price":"200$",
+        "achievements":"Membre émérite de la ligue de l'injustice vous fera aimer la tisane",
+        "comments":"Géniale!! Un anniversaire où tous les gosses se sont tenus tranquilles, c'est beau le pouvoir des plantes!",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Female",
+            "race": "Human",
+            "height": [
+                "5'6",
+                "168 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Red"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/522-poison-ivy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/522-poison-ivy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/522-poison-ivy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/522-poison-ivy.jpg"
+        }
+    },
+   
+    {
+        "id": 29,
+        "name": "Dormammu",
+        "slug": "232-dormammu",
+        "rating":"1",
+        "price":"150$",
+        "achievements":"Règne sur la dimension noire",
+        "comments":"Mauvais, devait pourrir l'anniv de ma belle mère mais s'est fait embobiné avec des cookies et lui a même allumé le barbecue.",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'1",
+                "185 cm"
+            ],
+            "eyeColor": "Yellow",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/232-dormammu.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/232-dormammu.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/232-dormammu.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/232-dormammu.jpg"
+        }
+    },
+    {
+        "id": 30,
+        "name": "Hellcat",
+        "slug": "323-hellcat",
+        "rating":"2",
+        "price":"100$",
+        "achievements":"Pas grand chose",
+        "comments":"Bof, avec un nom pareil on s'attendait à mieux.",
+        "occupation": "birthday",
+        "appearance": {
+            "gender": "Female",
+            "race": "Human",
+            "height": [
+                "5'8",
+                "173 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Red"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/323-hellcat.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/323-hellcat.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/323-hellcat.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/323-hellcat.jpg"
+        }
+    },
+    
+    {
+        "id": 31,
+        "name": "Faora",
+        "slug": "253-faora",
+        "rating":"4",
+        "price":"100$",
+        "achievements":"A survécu à l'explosion de Krypton",
+        "comments":"Rien à dire, depuis qu'elle garde les enfants ils ont l'air terrorisés mais sont sages comme des images. ",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Female",
+            "race": "Kryptonian",
+            "height": [
+                "-",
+                "0 cm"
+            ],
+            "eyeColor": "-",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/253-faora.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/253-faora.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/253-faora.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/253-faora.jpg"
+        }
+    },
+    {
+        "id": 31,
+        "name": "Frenzy",
+        "slug": "271-frenzy",
+        "rating":"3",
+        "price":"150$",
+        "achievements":"A atteint un subtil équilibre entre la méchanceté et la méchanceté",
+        "comments":"Engagée pour garder ma nièce un soir. Fait le job, ma nièce ne veux plus jamais revenir mais à aussi tué mon labrador...",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Female",
+            "race": null,
+            "height": [
+                "6'11",
+                "211 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/271-frenzy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/271-frenzy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/271-frenzy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/271-frenzy.jpg"
+        }
+    },
+    {
+        "id": 32,
+        "name": "Giganta",
+        "slug": "284-giganta",
+        "rating":"0",
+        "price":"200$",
+        "achievements":"Saccage de villes entières",
+        "comments":"Une escroc!! a pris le blé et n'a pas gardé les marmots!!",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Female",
+            "race": null,
+            "height": [
+                "205",
+                "62.5 meters"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Red"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/284-giganta.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/284-giganta.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/284-giganta.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/284-giganta.jpg"
+        }
+    },
+    {
+        "id": 33,
+        "name": "Goblin Queen",
+        "slug": "286-goblin-queen",
+        "rating":"5",
+        "price":"300$",
+        "achievements":"Possession démoniaque",
+        "comments":"Un peu cher mais bonne prestation. Maintenant quand les gosses ne sont pas sages et qu'on leur dit qu'on va les laisser avec nounou ils se calment.",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Female",
+            "race": null,
+            "height": [
+                "5'6",
+                "168 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Red"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/286-goblin-queen.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/286-goblin-queen.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/286-goblin-queen.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/286-goblin-queen.jpg"
+        }
+    },
+    {
+        "id": 34,
+        "name": "Green Goblin",
+        "slug": "299-green-goblin",
+        "rating":"1",
+        "price":"150$",
+        "achievements":"Wannabe truand",
+        "comments":"Franchement décevant, cause plus de dégâts que les petits monstres qu'il doit garder.",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "5'11",
+                "180 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Auburn"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/299-green-goblin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/299-green-goblin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/299-green-goblin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/299-green-goblin.jpg"
+        }
+    },
+    {
+        "id": 35,
+        "name": "Harley Quinn",
+        "slug": "309-harley-quinn",
+        "rating":"0",
+        "price":"150$",
+        "achievements":"Membre du Suicide squad",
+        "comments":"Horrible les enfants sont intenables depuis sont passage",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Female",
+            "race": "Human",
+            "height": [
+                "5'7",
+                "170 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Blond"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/309-harley-quinn.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/309-harley-quinn.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/309-harley-quinn.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/309-harley-quinn.jpg"
+        }
+    },
+    {
+        "id": 37,
+        "name": "Electro",
+        "slug": "237-electro",
+        "rating":"5",
+        "price":"100$",
+        "achievements":"Hold-up et cambriolages",
+        "comments":"Parfait, notre petit Dylan a toujours été turbulent mais depuis que Mr Electro l'a gardé à la simple évocation de ce nom il va dans sa chambre.",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "5'11",
+                "180 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Auburn"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/237-electro.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/237-electro.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/237-electro.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/237-electro.jpg"
+        }
+    },
+    {
+        "id": 36,
+        "name": "Hela",
+        "slug": "321-hela",
+        "rating":"1",
+        "price":"100$",
+        "achievements":"Trucs habituels des mégalomanes assoifés de sang",
+        "comments":"A bien terrorisé les enfants mais nous aussi avec...",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Female",
+            "race": "Asgardian",
+            "height": [
+                "7'0",
+                "213 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/321-hela.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/321-hela.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/321-hela.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/321-hela.jpg"
+        }
+    },
+
+    {
+        "id": 38,
+        "name": "Hydro-Man",
+        "slug": "337-hydro-man",
+        "rating":"3",
+        "price":"120$",
+        "achievements":"Criminel de base",
+        "comments":"Rien à signaler sait se faire respecter et arrose même le jardin.",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Brown"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/337-hydro-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/337-hydro-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/337-hydro-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/337-hydro-man.jpg"
+        }
+    },
+    {
+        "id": 39,
+        "name": "Iron Monger",
+        "slug": "347-iron-monger",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"A fait sombrer tony Stark dans l'alcoolisme",
+        "comments":"A dû garder 6 enfants turbulents. A son arrivée ils ont tous préféré se coucher direct. du coup rien d'abimé ni sali. TOP",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "-",
+                "0 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/347-iron-monger.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/347-iron-monger.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/347-iron-monger.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/347-iron-monger.jpg"
+        }
+    },
+    {
+        "id": 40,
+        "name": "Doomsday",
+        "slug": "230-doomsday",
+        "rating":"4",
+        "price":"250$",
+        "achievements":"",
+        "comments":"Pas donné mais top. Inspire le respect même à notre petit monstre. S'est aussi occupé du voisin d'en face et de sa moto, on ne les entends plus.",
+        "occupation": "nanny",
+        "appearance": {
+            "gender": "Male",
+            "race": "Alien",
+            "height": [
+                "8'0",
+                "244 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "White"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/230-doomsday.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/230-doomsday.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/230-doomsday.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/230-doomsday.jpg"
+        }
+    },
+    {
+        "id": 41,
+        "name": "Junkpile",
+        "slug": "375-junkpile",
+        "rating":"1",
+        "price":"150$",
+        "achievements":"Trahison des X-men",
+        "comments":"Nul, ne tenait pas dans le gâteau et ne sait pas danser. On se demande ce qu'il fait dans la catégorie EVJF!!! ",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Male",
+            "race": "Mutant",
+            "height": [
+                "-",
+                "0 cm"
+            ],
+            "eyeColor": "-",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/375-junkpile.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/375-junkpile.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/375-junkpile.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/375-junkpile.jpg"
+        }
+    },
+    {
+        "id": 42,
+        "name": "Lady Deathstrike",
+        "slug": "400-lady-deathstrike",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"Mutila Feu du Soleil",
+        "comments":"Parfait, le futur marié à préféré renoncer. il s'est dit qu'un jour son ex-future épouse finirait peut-être comme ça.",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Female",
+            "race": "Cyborg",
+            "height": [
+                "5'9",
+                "175 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/400-lady-deathstrike.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/400-lady-deathstrike.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/400-lady-deathstrike.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/400-lady-deathstrike.jpg"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Leader",
+        "slug": "401-leader",
+        "rating":"5",
+        "price":"200$",
+        "achievements":"Devient maître de l'univers",
+        "comments":"Génial! Tellement chi@#t avec ses discours philosophiques et ses délires mégalo que notre pote se rend compte de la chance d'épouser un footeux!!!! ",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "5'10",
+                "178 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/401-leader.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/401-leader.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/401-leader.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/401-leader.jpg"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Lex Luthor",
+        "slug": "405-lex-luthor",
+        "rating":"1",
+        "price":"200$",
+        "achievements":"Président des United States of America",
+        "comments":"Un crétin, on ne loue pas les services d'un super vilain pour se retrouver avec un type corporate!!!",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'2'",
+                "188 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/405-lex-luthor.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/405-lex-luthor.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/405-lex-luthor.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/405-lex-luthor.jpg"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Lightning Lord",
+        "slug": "408-lightning-lord",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"Fondateur de la Légion des Super Vilains",
+        "comments":"♥ ♥ love love!! Trop beau et trop badass!!! la future ex-mariée est partie avec!! On aura plus à supporter son tocard d'ex fiancé!!",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'3",
+                "191 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Red"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/408-lightning-lord.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/408-lightning-lord.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/408-lightning-lord.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/408-lightning-lord.jpg"
+        }
+    },
+    {
+        "id": 46,
+        "name": "Loki",
+        "slug": "414-loki",
+        "rating":"3",
+        "price":"300$",
+        "achievements":"L'attaque d'Asgard",
+        "comments":"Moyen pour le prix, ne se donne pas à fond.",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Male",
+            "race": "Asgardian",
+            "height": [
+                "6'4",
+                "193 cm"
+            ],
+            "eyeColor": "Green",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/414-loki.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/414-loki.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/414-loki.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/414-loki.jpg"
+        }
+    },
+    {
+        "id": 47,
+        "name": "Mystique",
+        "slug": "480-mystique",
+        "rating":"4",
+        "price":"250$",
+        "achievements":"Terrorisme planétaire, extorsion, vol....",
+        "comments":"Super, a déclenché une baston générale en se faisant passer pour la future mariée!!",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Female",
+            "race": "Mutant",
+            "height": [
+                "5'10",
+                "178 cm"
+            ],
+            "eyeColor": "Yellow (without irises)",
+            "hairColor": "Red / Orange"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/480-mystique.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/480-mystique.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/480-mystique.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/480-mystique.jpg"
+        }
+    },
+    {
+        "id": 48,
+        "name": "Nebula",
+        "slug": "487-nebula",
+        "rating":"1",
+        "price":"150$",
+        "achievements":"Attaque de l'empire Skrull",
+        "comments":"Services loués pour ruiner l'EVG de mon cousin, a oublié pourquoi elle était là...",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Female",
+            "race": "Luphomoid",
+            "height": [
+                "6'1",
+                "185 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/487-nebula.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/487-nebula.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/487-nebula.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/487-nebula.jpg"
+        }
+    },
+   
+    {
+        "id": 49,
+        "name": "Maxima",
+        "slug": "439-maxima",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"Reine de la planète Almérac",
+        "comments":"Services loués pour que l'EVG soit inoubliable. Mission réussie, elle a cassé la gueule à tout le monde et a dit au futur marié qu'il n'était qu'une m#r@e!!",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Female",
+            "race": null,
+            "height": [
+                "5'11",
+                "180 cm"
+            ],
+            "eyeColor": "Brown",
+            "hairColor": "Red"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/439-maxima.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/439-maxima.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/439-maxima.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/439-maxima.jpg"
+        }
+    },
+    {
+        "id": 50,
+        "name": "Moonstone",
+        "slug": "471-moonstone",
+        "rating":"5",
+        "price":"65$",
+        "achievements":"Faire passer Hannibal Lecter pour un enfant de coeur",
+        "comments":"Géniale!! On trouvait que ce mariage était une con@#r&e elle l'en a convaincu!!",
+        "occupation": "stag",
+        "appearance": {
+            "gender": "Female",
+            "race": null,
+            "height": [
+                "5'11",
+                "180 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Blond"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/471-moonstone.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/471-moonstone.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/471-moonstone.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/471-moonstone.jpg"
+        }
+    },
+    {
+        "id": 51,
+        "name": "Magneto",
+        "slug": "423-magneto",
+        "rating":"2",
+        "price":"1000$",
+        "achievements":"",
+        "comments":"Avis mitigé, engagé pour ruiner le jardin des voisins ça c'est bon mais a aussi pulvérisé le mien.",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "Mutant",
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "eyeColor": "Grey",
+            "hairColor": "White"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/423-magneto.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/423-magneto.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/423-magneto.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/423-magneto.jpg"
+        }
+    },
+    {
+        "id": 52,
+        "name": "Mandarin",
+        "slug": "430-mandarin",
+        "rating":"2",
+        "price":"150$",
+        "achievements":"Replongea la Chine à l'ère féodale",
+        "comments":"Engagé pour crever des pneus. A cassé la voiture avec...",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "White"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/430-mandarin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/430-mandarin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/430-mandarin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/430-mandarin.jpg"
+        }
+    },
+    {
+        "id": 53,
+        "name": "Penguin",
+        "slug": "514-penguin",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"Activités criminelles en tous genres",
+        "comments":"Génial, après son passage la piscine des voisins ressemblait aux poubelles d'une poisonnerie!!! Ils ne sont pas prêts de refaire la teuf jusqu'à 4h du mat en braillant!!",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "5'2",
+                "157 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Black"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/514-penguin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/514-penguin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/514-penguin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/514-penguin.jpg"
+        }
+    },
+    {
+        "id": 54,
+        "name": "Doppelganger",
+        "slug": "231-doppelganger",
+        "rating":"1",
+        "price":"100$",
+        "achievements":"Promotion du meurtre et de la destruction",
+        "comments":"Je laisse une étoile parceq ue la mission est remplie mais prend la destruction trop à coeur. Je n'ai plus de taupes mais plus de chien non plus...",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'5",
+                "196 cm"
+            ],
+            "eyeColor": "White",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/231-doppelganger.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/231-doppelganger.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/231-doppelganger.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/231-doppelganger.jpg"
+        }
+    },   
+    {
+        "id": 55,
+        "name": "Sabretooth",
+        "slug": "570-sabretooth",
+        "rating":"4",
+        "price":"100$",
+        "achievements":"La méchanceté ordinaire",
+        "comments":"Très bien, fait ce pour quoi on le paie ++++",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "Mutant",
+            "height": [
+                "6'6",
+                "198 cm"
+            ],
+            "eyeColor": "Amber",
+            "hairColor": "Blond"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/570-sabretooth.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/570-sabretooth.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/570-sabretooth.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/570-sabretooth.jpg"
+        }
+    },
+    {
+        "id": 56,
+        "name": "Swamp Thing",
+        "slug": "645-swamp-thing",
+        "rating":"4",
+        "price":"120$",
+        "achievements":"Saccage de Star city",
+        "comments":"Top, peut faire pousser un tas de mauvaises herbes en quelques secondes dans le jardin le mieux entretenu!!",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "God / Eternal",
+            "height": [
+                "-",
+                "0 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/645-swamp-thing.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/645-swamp-thing.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/645-swamp-thing.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/645-swamp-thing.jpg"
+        }
+    },
+    {
+        "id": 57,
+        "name": "Thanos",
+        "slug": "655-thanos",
+        "rating":"1",
+        "price":"200$",
+        "achievements":"Diviser la population par deux",
+        "comments":"Pas fiable,A finalement considéré que sa mission ne l'intéressait pas.... et est parti",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "Eternal",
+            "height": [
+                "6'7",
+                "201 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "No Hair"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/655-thanos.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/655-thanos.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/655-thanos.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/655-thanos.jpg"
+        }
+    },
+    {
+        "id": 58,
+        "name": "Two-Face",
+        "slug": "678-two-face",
+        "rating":"3",
+        "price":"150$",
+        "achievements":"Dégradation, meurtres",
+        "comments":"Pas discret mais le Yuki de Mamy ne pissera plus jamis sur mon paillasson.",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": null,
+            "height": [
+                "6'0",
+                "183 cm"
+            ],
+            "eyeColor": "-",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/678-two-face.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/678-two-face.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/678-two-face.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/678-two-face.jpg"
+        }
+    },
+    {
+        "id": 59,
+        "name": "Ultron",
+        "slug": "680-ultron",
+        "rating":"5",
+        "price":"150$",
+        "achievements":"Saccage d'Arkham",
+        "comments":"Je recommande!!! C'est clair qu'il aime ce qu'il fait!!!",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "Android",
+            "height": [
+                "6'9",
+                "206 cm"
+            ],
+            "eyeColor": "Red",
+            "hairColor": "-"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/680-ultron.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/680-ultron.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/680-ultron.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/680-ultron.jpg"
+        }
+    },
+    {
+        "id": 60,
+        "name": "Venom",
+        "slug": "687-venom",
+        "rating":"0",
+        "price":"1$",
+        "achievements":"",
+        "comments":"N'a rien compris: devait détruire un radar automatique et a mis le feu à mon matériel informatique!!! Quelle bur#@e!!!",
+        "occupation": "destroy",
+        "appearance": {
+            "gender": "Male",
+            "race": "Symbiote",
+            "height": [
+                "6'3",
+                "191 cm"
+            ],
+            "eyeColor": "Blue",
+            "hairColor": "Strawberry Blond"
+        },
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/687-venom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/687-venom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/687-venom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/687-venom.jpg"
+        }
+    }
+]
