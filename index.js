@@ -8,7 +8,8 @@ const serverPort = 4242
 
 // XXXXXXXXXXXXXXXXXXXXXXXXXX Appel fichier JSON XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-const datas = require('./villainsApi.json');
+const customersDatas = require('./customersApi.json')
+const vilainsDatas = require('./villainsApi.json');
 const { stringify } = require("querystring");
 const { log } = require("console");
 
@@ -20,11 +21,44 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXX Déclaration de la route permettant d'accepter    XXXXXXXXXXXX
-// XXXXXXXXXXXXXX les requêtes concernant l'écriture des datas XXXXXXXXXXXXXXX
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXX   CUSTOMERS   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-const fonctionDeTaitementRquete = async (contentToWrite) => {
+// XXXXXXXXXXXXXXXXXXXXXX Ecriture dans fichier customer XXXXXXXXXXXXXXXXXXXXX
+const fonctionDeTaitementRqueteCustomers = async (contentToWrite) => {
+    // Fonction d'écriture dans le fichier json
+    // contentToWrite est un paramètre correspondant ici à "requestContent"
+    fs.writeFile('customersApi.json', contentToWrite, (err) => {
+
+        if (err) {
+            console.log(err);
+        } else {
+            console.log("done!!");
+        }
+    })
+}
+    // Route d'écriture
+app.post('/write/customers', async (req, res, next) => {
+    // récupère le body de la requête (req.body) pour le convertir en string
+    // requestContent est le tableau envoyé par  la fonction saveJson de l'app
+    // de l'exemple, le transfert se fait via "axios.post" côté front end
+    const requestContent = JSON.stringify(req.body, null, 2)
+    console.log("salut je suis la ", requestContent);
+    await fonctionDeTaitementRqueteCustomers(requestContent);
+
+    res.json(requestContent)
+});
+// XXXXXXXXXXXXXXXXXXXXXXXXX Import profils clients XXXXXXXXXXXXXXXXXXXXXXXXXX
+
+app.get("/customers", (req, res) => {
+    res.status(200).json(customersDatas);
+});
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   VILLAINS   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+// XXXXXXXXXXXXXXXXXXXXXX Ecriture dans fichier villains XXXXXXXXXXXXXXXXXXXXX
+const fonctionDeTaitementRqueteVillains = async (contentToWrite) => {
     // Fonction d'écriture dans le fichier json
     // contentToWrite est un paramètre correspondant ici à "requestContent"
     fs.writeFile('villainsApi.json', contentToWrite, (err) => {
@@ -37,76 +71,60 @@ const fonctionDeTaitementRquete = async (contentToWrite) => {
     })
 }
     // Route d'écriture
-app.post('/write', async (req, res, next) => {
+app.post('/write/villains', async (req, res, next) => {
     // récupère le body de la requête (req.body) pour le convertir en string
     // requestContent est le tableau envoyé par  la fonction saveJson de l'app
     // de l'exemple, le transfert se fait via "axios.post" côté front end
-    const requestContent = JSON.stringify(req.body);
+    const requestContent = JSON.stringify(req.body, null, 2)
     console.log("salut je suis la ", requestContent);
-    await fonctionDeTaitementRquete(requestContent);
+    await fonctionDeTaitementRqueteVillains(requestContent);
 
     res.json(requestContent)
 });
-
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXX  Importe tous les profils  XXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// XXXXXXXXXXXXXXXXXX  Importe tous les profils VILAINS  XXXXXXXXXXXXXXXXXXXXX
 
 app.get("/", (req, res) => {
-    res.status(200).json(datas);
-
+    res.status(200).json(vilainsDatas);
 });
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "conquer"  XXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 app.get("/occupation/conquer", (req, res) => {
-    const result = datas.filter(data => data.occupation === "conquer")
+    const result = vilainsDatas.filter(data => data.occupation === "conquer")
     res.status(200).json(result);
-    //  console.log(result);
 });
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "escort"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 app.get("/occupation/escort", (req, res) => {
-    const result = datas.filter(data => data.occupation === "escort")
+    const result = vilainsDatas.filter(data => data.occupation === "escort")
     res.status(200).json(result);
-    //  console.log(result);
 });
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "birthday"  XXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 app.get("/occupation/birthday", (req, res) => {
-    const result = datas.filter(data => data.occupation === "birthday")
+    const result = vilainsDatas.filter(data => data.occupation === "birthday")
     res.status(200).json(result);
-    //  console.log(result);
 });
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "nanny"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 app.get("/occupation/nanny", (req, res) => {
-    const result = datas.filter(data => data.occupation === "nanny")
+    const result = vilainsDatas.filter(data => data.occupation === "nanny")
     res.status(200).json(result);
-    //  console.log(result);
 });
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "EVG.JF"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 app.get("/occupation/stag", (req, res) => {
-    const result = datas.filter(data => data.occupation === "stag")
+    const result = vilainsDatas.filter(data => data.occupation === "stag")
     res.status(200).json(result);
-    //  console.log(result);
 });
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "destroy"  XXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 app.get("/occupation/destroy", (req, res) => {
-    const result = datas.filter(data => data.occupation === "destroy")
+    const result = vilainsDatas.filter(data => data.occupation === "destroy")
     res.status(200).json(result);
-    //  console.log(result);
 });
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 app.listen(serverPort, (err) => {
     if (err) {
         console.log("ho crap!!");
