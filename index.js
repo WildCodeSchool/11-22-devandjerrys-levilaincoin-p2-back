@@ -58,9 +58,8 @@ app.get("/customers", (req, res) => {
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 // XXXXXXXXXXXXXXXXXXXXXX Ecriture dans fichier villains XXXXXXXXXXXXXXXXXXXXX
-const fonctionDeTaitementRqueteVillains = async (contentToWrite) => {
-    // Fonction d'écriture dans le fichier json
-    // contentToWrite est un paramètre correspondant ici à "requestContent"
+
+const fonctionDeTaitementRqueteVillains = async (contentToWrite) => {  
     fs.writeFile('villainsApi.json', contentToWrite, (err) => {
 
         if (err) {
@@ -72,9 +71,6 @@ const fonctionDeTaitementRqueteVillains = async (contentToWrite) => {
 }
     // Route d'écriture
 app.post('/write/villains', async (req, res, next) => {
-    // récupère le body de la requête (req.body) pour le convertir en string
-    // requestContent est le tableau envoyé par  la fonction saveJson de l'app
-    // de l'exemple, le transfert se fait via "axios.post" côté front end
     const requestContent = JSON.stringify(req.body, null, 2)
     console.log("salut je suis la ", requestContent);
     await fonctionDeTaitementRqueteVillains(requestContent);
@@ -86,7 +82,26 @@ app.post('/write/villains', async (req, res, next) => {
 app.get("/", (req, res) => {
     res.status(200).json(vilainsDatas);
 });
-// XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "conquer"  XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "idVilain"  XXXXXXXXXXXXXXXXXXXXXXXXXXX
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+// XXXXXXXXXXXXXXXXXXX  Vilain dynamic selection from Id  XXXXXXXXXXXXXXXXXXXX
+app.get(`/selection/id/:id`, (req, res) => {
+    const identification = parseInt(req.params.id,16)
+    console.log(identification);
+    const result = vilainsDatas.filter(data => data.id === identification);
+    res.status(200).json(result);
+});
+// XXXXXXXXXXXXXXXXXX Vilain dynamic selection from Name XXXXXXXXXXXXXXXXXXXXX
+app.get(`/selection/name/:name`, (req, res) => {
+    const identification = req.params.name;
+    console.log(identification);
+    const result = vilainsDatas.filter(data => data.name === identification);
+    res.status(200).json(result);
+});
+// XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "conquer"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 app.get("/occupation/conquer", (req, res) => {
     const result = vilainsDatas.filter(data => data.occupation === "conquer")
@@ -95,6 +110,7 @@ app.get("/occupation/conquer", (req, res) => {
 // XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "escort"  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 app.get("/occupation/escort", (req, res) => {
+    // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     const result = vilainsDatas.filter(data => data.occupation === "escort")
     res.status(200).json(result);
 });
