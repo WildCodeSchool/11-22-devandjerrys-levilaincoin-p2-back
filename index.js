@@ -96,7 +96,7 @@ app.get("/", (req, res) => {
 
 // XXXXXXXXXXXXXXXXXXX  Vilain dynamic selection from Id  XXXXXXXXXXXXXXXXXXXX
 app.get(`/selection/id/:id`, (req, res) => {
-    const identification = parseInt(req.params.id,16)
+    const identification = parseInt(req.params.id,10)
     console.log(identification);
     const result = vilainsDatas.filter(data => data.id === identification);
     res.status(200).json(result);
