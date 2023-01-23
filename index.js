@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const fs = require('fs');
 const morgan = require('morgan');
-
+const {validateUserSignIn} = require("./validator.js")
 const app = express();
 const serverPort = 4242
 
@@ -38,7 +38,7 @@ const fonctionDeTaitementRqueteCustomers = async (contentToWrite) => {
     })
 }
     // Route d'écriture
-app.post('/write/customers', async (req, res, next) => {
+    app.post('/write/customers', validateUserSignIn, async (req, res, next) => {
     // récupère le body de la requête (req.body) pour le convertir en string
     // requestContent est le tableau envoyé par  la fonction saveJson de l'app
     // de l'exemple, le transfert se fait via "axios.post" côté front end
