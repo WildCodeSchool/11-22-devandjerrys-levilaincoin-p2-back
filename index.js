@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const fs = require('fs');
 const morgan = require('morgan');
-
+const {validateUserSignIn} = require("./validator.js")
 const app = express();
 const serverPort = 4242
 
@@ -45,7 +45,7 @@ const fonctionDeTaitementRqueteCustomers = async (contentToWrite) => {
     })
 }
     // Route d'écriture
-app.post('/write/customers', async (req, res, next) => {
+    app.post('/write/customers', validateUserSignIn, async (req, res, next) => {
     // récupère le body de la requête (req.body) pour le convertir en string
     // requestContent est le tableau envoyé par  la fonction saveJson de l'app
     // de l'exemple, le transfert se fait via "axios.post" côté front end
@@ -60,6 +60,16 @@ app.post('/write/customers', async (req, res, next) => {
 app.get("/customers", (req, res) => {
     res.status(200).json(customersDatas);
 });
+
+// XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import client demo  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+app.get(`/selection/users/id/:id`, (req, res) => {
+  const identification = parseInt(req.params.id,10)
+  console.log(identification);
+  const result = customersDatas.filter(data => data.id === identification);
+  res.status(200).json(result);
+});
+
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   VILLAINS   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -93,7 +103,7 @@ app.get("/", (req, res) => {
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import "idVilain"  XXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXX  Vilain dynamic selection from Id  XXXXXXXXXXXXXXXXXXXX
 app.get(`/selection/id/:id`, (req, res) => {
     const identification = parseInt(req.params.id,10)
