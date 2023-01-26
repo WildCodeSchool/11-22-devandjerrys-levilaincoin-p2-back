@@ -1,10 +1,10 @@
 [
   {
-    "id": "ee050ac0-9b20-11ed-9803-038395415dfe",
-    "firstName": "aaaaaaaaa",
-    "lastName": "aaaaaaaaaaa",
-    "email": "aaaaaaaaaa",
-    "password": "aaaaa",
+    "id": "12",
+    "firstName": "Pierre",
+    "lastName": "Martin",
+    "email": "pierre.martin@gmail.com",
+    "password": "123456",
     "passwordConfirmation": "aaaaa"
   },
   {

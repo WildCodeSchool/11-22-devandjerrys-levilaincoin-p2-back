@@ -60,6 +60,16 @@ const fonctionDeTaitementRqueteCustomers = async (contentToWrite) => {
 app.get("/customers", (req, res) => {
     res.status(200).json(customersDatas);
 });
+
+// XXXXXXXXXXXXXXXXXXXXXXXXXXX  Import client demo  XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+app.get(`/selection/users/id/:id`, (req, res) => {
+  const identification = parseInt(req.params.id,10)
+  console.log(identification);
+  const result = customersDatas.filter(data => data.id === identification);
+  res.status(200).json(result);
+});
+
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   VILLAINS   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
