@@ -1,0 +1,18 @@
+[
+  {
+    "id": "12",
+    "firstName": "Pierre",
+    "lastName": "Martin",
+    "email": "pierre.martin@gmail.com",
+    "password": "123456",
+    "passwordConfirmation": "aaaaa"
+  },
+  {
+    "id": "525c0580-9b1e-11ed-b9df-53362e7a05c7",
+    "firstName": "gggggggggggggg",
+    "lastName": "ggggggggg",
+    "email": "ggggggggg",
+    "password": "gggggg",
+    "passwordConfirmation": "gggggg"
+  }
+]
